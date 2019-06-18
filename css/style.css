@@ -536,10 +536,10 @@ li.w3pages .dropdown-menu > li > a:hover{
 	font-size: 2em;
     color:#fff;
     text-transform: uppercase;
-    width: 45%;
-    margin: 9em 0 0;
+    width: 50%;
+    margin: 3em 0 0;
 	padding: 1em .5em;
-    background:rgba(33, 33, 33, 0.85);
+   
 }
 .banner h3 span{
 	display: block;
