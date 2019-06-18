@@ -1160,34 +1160,38 @@
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<!-- //banner-bottom1 --> 
-	<!-- special-deals -->
-	<div class="special-deals">
+	<div class="banner-bottom">
 		<div class="container">
-			<h2>Special Deals</h2>
-			<div class="w3agile_special_deals_grids">
-				<div class="col-md-7 w3agile_special_deals_grid_left">
-					<div class="w3agile_special_deals_grid_left_grid">
-						<img src="images/21.jpg" alt=" " class="img-responsive" />
-						<div class="w3agile_special_deals_grid_left_grid_pos1">
-							<h5>30%<span>Off/-</span></h5>
-						</div>
-						<div class="w3agile_special_deals_grid_left_grid_pos">
-							<h4><span>We Offer The</span>Best Products</h4>
-						</div>
+			<div class="col-md-5 wthree_banner_bottom_left">
+				<div class="video-img">
+					<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+						<span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+					</a>
+				</div> 
+					<!-- pop-up-box -->     
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!--//pop-up-box -->
+					<div id="small-dialog" class="mfp-hide">
+						<iframe src="https://www.youtube.com/embed/9m_K2Yg7wGQ"></iframe>
 					</div>
-					
-				<div class="col-md-5 w3agile_special_deals_grid_right">
-					<img src="images/20.jpg" alt=" " class="img-responsive" />
-					<div class="w3agile_special_deals_grid_right_pos">
-						<h4> <span>Special</span></h4>
-						<h5>save Up <span>to</span> 30%</h5>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
+					<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});																	
+						});
+					</script>
+			</div> 
+	<!-- //banner-bottom1 --> 
+
 	
 	<!-- top-brands -->
 	<div class="top-brands">
@@ -1242,36 +1246,6 @@
 			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 		</div>
 	</div>
-	<div class="banner-bottom">
-		<div class="container">
-			<div class="col-md-5 wthree_banner_bottom_left">
-				<div class="video-img">
-					<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
-						<span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
-					</a>
-				</div> 
-					<!-- pop-up-box -->     
-				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-					<!--//pop-up-box -->
-					<div id="small-dialog" class="mfp-hide">
-						<iframe src="https://www.youtube.com/embed/9m_K2Yg7wGQ"></iframe>
-					</div>
-					<script>
-						$(document).ready(function() {
-						$('.popup-with-zoom-anim').magnificPopup({
-							type: 'inline',
-							fixedContentPos: false,
-							fixedBgPos: true,
-							overflowY: 'auto',
-							closeBtnInside: true,
-							preloader: false,
-							midClick: true,
-							removalDelay: 300,
-							mainClass: 'my-mfp-zoom-in'
-						});																	
-						});
-					</script>
-			</div> 
 	<!-- //top-brands --> 
 	<!-- newsletter -->
 	<div class="newsletter">
