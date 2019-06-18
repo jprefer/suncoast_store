@@ -535,11 +535,6 @@ li.w3pages .dropdown-menu > li > a:hover{
 .banner h3{
 	font-size: 2em;
     color:#fff;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
     text-transform: uppercase;
     width: 45%;
     margin: 9em 0 0;
